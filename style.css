@@ -1,0 +1,89 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    height: 32px;
+    border: 0px solid;
+    border-bottom: 1px solid black;
+    padding: 4px 16px;
+}
+
+.background {
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3N6YWcwdmxvaGNpZ2NmcmNsdHhzdTlyNHBjYTE3ajMzY2M3dzU5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2Sqf1fbj1qrmaJ6E/giphy.gif");
+    padding: 200px;
+}
+
+.body {
+    background-color: white;
+    padding: 64px;
+    border: 2px solid black;
+    border-radius: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    align-content: center;
+}
+
+.alternate-sign-in {
+
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.facebook {
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.twitter {
+    height: 40px;
+    width: 40px;
+    background-color: lightblue;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.google {
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.button-primary {
+    padding: 8px;
+    border: 0px solid;
+    border-radius: 100px;
+    width: 100px;
+    cursor: pointer;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
+
+.button-text {
+background-color: white;
+cursor: pointer;
+}
